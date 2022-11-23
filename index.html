@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Old games sales</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/imgs.css" />
+    <link rel="stylesheet" href="css/icon.css" />
+    <link rel="stylesheet" href="css/carrossel.css" />
+
+    <!-- GOOGLE FONTS ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fs-2" href="index.html">Old games sales</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <a class="nav-link" href="#">
+      <span class="material-symbols-outlined text-white fs-2"> shopping_cart </span>
+    </a>
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Carrinho</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Seus itens - 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+                <!-- <a class="nav-link" href="#">
+                  <span class="material-symbols-outlined"> shopping_cart </span>
+                </a> -->
+
+
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-white fs-5"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categoria
+                </a>
+                <ul class="dropdown-menu  bg-danger border border-white">
+                  <li><a class="dropdown-item text-white" href="#video">Video games</a></li>
+                  <li><a class="dropdown-item text-white" href="#jogos">Jogos</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                  
+                      <a class="btn btn-outline-dark" type="submit" href="telaPesquisa.html">
+                          Search
+                      </a>
+                    
+              </form>
+            
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- INICIO CARROSSEL -->
+      <section class="carrossel">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/carrossel-nintendinho2.jpg" alt="" />
+              <div class="carousel-caption text-black d-md-block">
+                <h5>Confira nossas novidades.</h5>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/carrossel-games.jpg" alt="" />
+              <div class="carousel-caption text-black d-md-block">
+                <h5>Jogos Antigos é Aqui!</h5>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="img/carrossel-nintendinho.jpg" alt="" />
+              <div class="carousel-caption text-black d-md-block">
+                <h5>Jogos e Consoles antigos.</h5>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!-- FIM DO CARROSSEL -->
+
+      <!-- VIDEO GAMES -->
+      <div class="container mt-100" id="video">
+        <div>
+          <h1>VideoGames</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <div class="card mb-30">
+              <a class="card-img-tiles" href="#" data-abc="true">
+                <div class="inner">
+                  <div class="main-img">
+                    <img src="img/nintendinhobox.jpg" alt="Category" />
+                  </div>
+                  <div class="thumblist">
+                    <img src="img/nintendinhobox2.jpg" alt="Category" /><img
+                      src="img/nintendinhobox3.jpg"
+                      alt="Category"
+                    />
+                  </div></div
+              ></a>
+              <div class="card-body text-center">
+                <h4 class="card-title">Nintendo Classic Mini Nes</h4>
+                <p class="text-muted">R$ 300,00</p>
+                <a
+                  class="btn btn-outline-success btn-sm"
+                  href="#"
+                  data-abc="true"
+                >
+                  + Detalhes</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card mb-30">
+              <a class="card-img-tiles" href="#" data-abc="true">
+                <div class="inner">
+                  <div class="main-img">
+                    <img src="img/snesminibox.jpg" alt="Category" />
+                  </div>
+                  <div class="thumblist">
+                    <img src="img/snesminiback2.jpg" alt="Category" /><img
+                      src="img/snesmini.jpg"
+                      alt="Category"
+                    />
+                  </div></div
+              ></a>
+              <div class="card-body text-center">
+                <h4 class="card-title">Super Nintendo Mini</h4>
+                <p class="text-muted">R$ 450,00</p>
+                <a
+                  class="btn btn-outline-success btn-sm"
+                  href="#"
+                  data-abc="true">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card mb-20">
+              <a class="card-img-tiles" href="#" data-abc="true">
+                <div class="inner">
+                  <div class="main-img">
+                    <img src="img/megadrivebox.jpg" alt="Category" />
+                  </div>
+                  <div class="thumblist">
+                    <img src="img/megadriveboxback.jpg" alt="Category" /><img
+                      src="img/megadrivetop.jpg"
+                      alt="Category"
+                    />
+                  </div></div
+              ></a>
+              <div class="card-body text-center">
+                <h4 class="card-title">Mega Drive</h4>
+                <p class="text-muted">R$ 350,00</p>
+                <a
+                  class="btn btn-outline-success btn-sm"
+                  href="#"
+                  data-abc="true"
+                  >Comprar</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FIM DE VIDEOGAMES -->
+
+      <!-- INICIO DE JOGOS -->
+
+      <div class="container mt-100" id="jogos">
+        <div>
+          <h1>Jogos</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6">
+            <div class="card mb-30">
+              <a class="card-img-tiles" href="" data-abc="true">
+                <div class="inner">
+                  <div class="main-img">
+                    <img src="img/jogo1.jpg" alt="Category" />
+                  </div>
+                  <div class="thumblist">
+                    <img src="img/jogo1b.jpg" alt="Category" /><img
+                      src="img/jogo1b1.jpg"
+                      alt="Category"
+                    />
+                  </div></div
+              ></a>
+              <div class="card-body text-center">
+                <h4 class="card-title">NINTENDO CLASSIC MINI NES 8BIT</h4>
+                <p class="text-muted">R$ 300,00</p>
+                <a
+                  class="btn btn-outline-success btn-sm"
+                  href="#"
+                  data-abc="true"
+                >
+                  + Detalhes</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card mb-30">
+              <a class="card-img-tiles" href="" data-abc="true">
+                <div class="inner">
+                  <div class="main-img">
+                    <img src="img/jogo2.jpg" alt="Category" />
+                  </div>
+                  <div class="thumblist">
+                    <img src="img/jogo2b.jpg" alt="Category" /><img
+                      src="img/jogo2b1.jpg"
+                      alt="Category"
+                    />
+                  </div></div
+              ></a>
+              <div class="card-body text-center">
+                <h4 class="card-title">Super Nintendo Mini</h4>
+                <p class="text-muted">R$ 450,00</p>
+                <a
+                  class="btn btn-outline-success btn-sm"
+                  href="#"
+                  data-abc="true"
+                  >Comprar</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="card mb-20">
+              <a class="card-img-tiles" href="" data-abc="true">
+                <div class="inner">
+                  <div class="main-img">
+                    <img src="img/jogo3.jpg" alt="Category" />
+                  </div>
+                  <div class="thumblist">
+                    <img src="img/jogo3b.jpg" alt="Category" /><img
+                      src="img/jogo3b1.jpg"
+                      alt="Category"
+                    />
+                  </div></div
+              ></a>
+              <div class="card-body text-center">
+                <h4 class="card-title">Mega Drive</h4>
+                <p class="text-muted">R$ 350,00</p>
+                <a
+                  class="btn btn-outline-success btn-sm"
+                  href="#"
+                  data-abc="true"
+                  >Comprar</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FIM DE JOGOS -->
+    </main>
+
+    <!-- INICIO DO FOOTER -->
+    <footer class="container-fluid mt-5 text-center">
+      <div class="row  mt-5">
+          <div class="col-12 bg-danger p-4 fs-3"><h2 class="text-white">Old Games</h2></div>
+      </div>
+      <div class="row">
+          <div class="col-12 bg-danger pb-3">
+            <h4 class="text-white">Felipe Moraes e Marcos Vinicius &copy; 2022</h4>
+          </div>
+      </div>
+    </footer>
+    <!-- FIM DO FOOTER -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- SWIPER -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+
+  </body>
+</html>
